@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a382da2-9ccf-4dcf-8318-8eb1ea358930" name="HITBBS" url="">
+        <fileTransfer rootFolder="/root/pybbs" accessType="SFTP" host="180.76.160.104" port="22" sshConfigId="fc7e6298-62c3-4dc2-8bcf-bf040f4926ba" sshConfig="root@180.76.160.104:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

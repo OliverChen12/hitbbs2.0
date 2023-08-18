@@ -1,0 +1,7 @@
+欢迎大家提交使用hitbbs部署的网站地址, 可以给我发邮件告知 hit2qiuse@gmail.com
+
+|===
+| 版本 | 域名
+
+| master  | http://bbs.dudu-auto.com/
+|===

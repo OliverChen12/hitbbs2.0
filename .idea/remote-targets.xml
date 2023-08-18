@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="d83cb762-f452-4115-8a7c-522a41cc30fe" />
+    <targets>
+      <target name="root@180.76.160.104:22" type="ssh/sftp" uuid="d83cb762-f452-4115-8a7c-522a41cc30fe">
+        <config>
+          <option name="projectRootOnTarget" value="/root/pybbs" />
+          <option name="serverName" value="root@180.76.160.104:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="javaVersionString" value="1.8.0_352" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+        <ContributedStateBase type="MavenRuntime">
+          <config />
+        </ContributedStateBase>
+        <ContributedStateBase type="GradleRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

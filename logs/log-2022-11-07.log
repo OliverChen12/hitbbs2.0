@@ -1,0 +1,206 @@
+2018-11-07 19:22:59 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 17516 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:22:59 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:22:59 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Maven\JAR\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:22:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:22:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:23:00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$63e1342] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:24:06 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 2144 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:24:06 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:24:06 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Maven\JAR\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:24:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:24:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:24:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$c3e7642f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:24:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.hitbbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$cf312479] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:24:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.hitbbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$df24468d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:24:07 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:24:07 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:24:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 5.2.1 by Boxfuse
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.d.DatabaseFactory - Database: jdbc:mysql://localhost:3306/hitbbs (MySQL 5.5)
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbValidate - Successfully validated 18 migrations (execution time 00:00.039s)
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table: `hitbbs`.`flyway_schema_history`
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Current version of schema `hitbbs`: << Empty Schema >>
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1 - initialize
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.1 - user add field
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.2 - update system config default theme
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.3 - delete system config redis ssl
+2018-11-07 19:24:07 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.4 - alter code
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.5 - add sensitive word
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.6 - add permission about sensitive word
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.7 - alter oauth user
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.8 - add sms region id
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.9 - update system config ws
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.10 - delete system config search
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.11 - update system config key
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.12 - add indexes
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.13 - add social config
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.14 - add system config user need active
+2018-11-07 19:24:08 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Migrating schema `hitbbs` to version 1.15 - modify content character
+2018-11-07 19:24:08 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:24:08 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:24:08 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-07 19:29:22 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 4384 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:29:22 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:29:22 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Maven\JAR\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Maven/JAR/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:29:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:29:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:29:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$9ca79448] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:29:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.hitbbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$a7f15492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:29:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.hitbbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$b7e476a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:29:23 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:29:23 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:29:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:29:23 [restartedMain] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 5.2.1 by Boxfuse
+2018-11-07 19:29:23 [restartedMain] INFO  o.f.c.i.d.DatabaseFactory - Database: jdbc:mysql://localhost:3306/hitbbs (MySQL 5.5)
+2018-11-07 19:29:23 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:29:23 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:29:23 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-07 19:31:51 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 16700 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:31:51 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:31:51 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\GS66\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:31:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:31:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:31:52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$b22a0c41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:31:52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.hitbbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$bd73cc8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:31:52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.hitbbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$cd66ee9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:31:52 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:31:52 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:31:52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:31:52 [restartedMain] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 5.2.1 by Boxfuse
+2018-11-07 19:31:52 [restartedMain] INFO  o.f.c.i.d.DatabaseFactory - Database: jdbc:mysql://localhost:3306/hitbbs (MySQL 5.5)
+2018-11-07 19:31:52 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:31:52 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:31:52 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-07 19:32:17 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 1372 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:32:17 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\GS66\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$24f2a403] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.hitbbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$303c644d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.hitbbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$402f8661] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:32:17 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:32:17 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:32:17 [restartedMain] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 5.2.1 by Boxfuse
+2018-11-07 19:32:17 [restartedMain] INFO  o.f.c.i.d.DatabaseFactory - Database: jdbc:mysql://localhost:3306/hitbbs (MySQL 5.5)
+2018-11-07 19:32:17 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:32:17 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:32:17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-07 19:33:37 [restartedMain] INFO  c.y.p.HitbbsApplication - Starting HitbbsApplication on OliverChen with PID 9400 (C:\Users\GS66\Desktop\hitbbs\target\classes started by GS66 in C:\Users\GS66\Desktop\hitbbs)
+2018-11-07 19:33:37 [restartedMain] INFO  c.y.p.HitbbsApplication - The following profiles are active: dev
+2018-11-07 19:33:37 [restartedMain] INFO  o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\GS66\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/C:/Users/GS66/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2018-11-07 19:33:37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:33:37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'siteConfig' of type [co.yiiu.hitbbs.config.SiteConfig$$EnhancerBySpringCGLIB$$72551629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.hitbbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$7d9ed673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.hitbbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$8d91f887] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:33:38 [restartedMain] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 5.2.1 by Boxfuse
+2018-11-07 19:33:38 [restartedMain] INFO  o.f.c.i.d.DatabaseFactory - Database: jdbc:mysql://localhost:3306/hitbbs (MySQL 5.5)
+2018-11-07 19:33:38 [restartedMain] INFO  o.f.c.i.c.DbValidate - Successfully validated 16 migrations (execution time 00:00.033s)
+2018-11-07 19:33:38 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Current version of schema `hitbbs`: 1.15
+2018-11-07 19:33:38 [restartedMain] INFO  o.f.c.i.c.DbMigrate - Schema `hitbbs` is up to date. No migration necessary.
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'flywayConfig' of type [co.yiiu.hitbbs.config.FlywayConfig$$EnhancerBySpringCGLIB$$aa775c5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [co.yiiu.hitbbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$7fe97b3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisSqlSession' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$b572095d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [co.yiiu.hitbbs.service.impl.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [co.yiiu.hitbbs.service.impl.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [co.yiiu.hitbbs.service.impl.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [co.yiiu.hitbbs.service.impl.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [co.yiiu.hitbbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigService' of type [co.yiiu.hitbbs.service.impl.SystemConfigService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [co.yiiu.hitbbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$5351e6a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [co.yiiu.hitbbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  c.y.p.c.ShiroConfig - 开始配置shiroFilter...
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:33:39 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2018-11-07 19:33:39 [restartedMain] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1759 ms
+2018-11-07 19:33:39 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
+2018-11-07 19:33:39 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
+2018-11-07 19:33:39 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
+2018-11-07 19:33:39 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
+2018-11-07 19:33:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-07 19:33:40 [restartedMain] INFO  i.u.websockets.jsr - UT026003: Adding annotated server endpoint class co.yiiu.hitbbs.config.websocket.MyWebSocket for path /websocket
+2018-11-07 19:33:40 [restartedMain] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2018-11-07 19:33:40 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2018-11-07 19:33:40 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2018-11-07 19:33:40 [restartedMain] INFO  o.s.b.w.e.u.UndertowServletWebServer - Undertow started on port(s) 8080 (http) with context path ''
+2018-11-07 19:33:40 [restartedMain] INFO  c.y.p.HitbbsApplication - Started HitbbsApplication in 3.311 seconds (JVM running for 4.033)
+2018-11-07 19:34:54 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-07 19:34:54 [XNIO-1 task-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-07 19:34:54 [XNIO-1 task-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+2018-11-07 19:34:54 [XNIO-1 task-1] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=206ms
+2018-11-07 19:34:54 [XNIO-1 task-4] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/js/app.js|excitation=6ms
+2018-11-07 19:34:54 [XNIO-1 task-3] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/css/app.css|excitation=6ms
+2018-11-07 19:34:54 [XNIO-1 task-2] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/libs/layer/layer.js|excitation=6ms
+2018-11-07 19:34:55 [XNIO-1 task-5] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/libs/layer/theme/default/layer.css|v=3.1.1|excitation=2ms
+2018-11-07 19:34:59 [XNIO-1 task-6] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/adminlogin|excitation=15ms
+2018-11-07 19:35:00 [XNIO-1 task-7] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/common/captcha|excitation=189ms
+2018-11-07 19:35:00 [XNIO-1 task-8] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=33ms
+2018-11-07 19:35:00 [XNIO-1 task-9] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=20ms
+2018-11-07 19:36:30 [XNIO-1 task-10] INFO  c.y.p.c.r.MyShiroRealm - 用户：admin 正在登录...
+2018-11-07 19:36:30 [XNIO-1 task-10] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/login|password=123123|code=cu5p|rememberMe=1|username=admin|excitation=102ms
+2018-11-07 19:36:31 [XNIO-1 task-11] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/index|excitation=419ms
+2018-11-07 19:36:31 [XNIO-1 task-12] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/admin/js/app.min.js|excitation=2ms
+2018-11-07 19:36:39 [XNIO-1 task-13] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/topic/list|excitation=52ms
+2018-11-07 19:36:40 [XNIO-1 task-14] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/tag/list|excitation=33ms
+2018-11-07 19:36:40 [XNIO-1 task-15] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/comment/list|excitation=32ms
+2018-11-07 19:36:41 [XNIO-1 task-16] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/comment/list|excitation=20ms
+2018-11-07 19:36:42 [XNIO-1 task-17] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/admin_user/list|excitation=31ms
+2018-11-07 19:36:44 [XNIO-1 task-18] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/index|excitation=42ms
+2018-11-07 19:37:06 [XNIO-1 task-19] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/system/edit|excitation=47ms
+2018-11-07 19:39:31 [XNIO-1 task-20] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/system/edit|excitation=114ms
+2018-11-07 19:39:32 [XNIO-1 task-21] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/system/edit|excitation=28ms
+2018-11-07 19:39:32 [XNIO-1 task-22] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/admin/js/app.min.js|excitation=2ms
+2018-11-07 19:39:45 [XNIO-1 task-23] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=23ms
+2018-11-07 19:39:45 [XNIO-1 task-24] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/css/app.css|excitation=1ms
+2018-11-07 19:39:45 [XNIO-1 task-25] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/libs/layer/layer.js|excitation=1ms
+2018-11-07 19:39:45 [XNIO-1 task-26] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/js/app.js|excitation=1ms
+2018-11-07 19:39:45 [XNIO-1 task-27] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/libs/layer/theme/default/layer.css|v=3.1.1|excitation=1ms
+2018-11-07 19:39:47 [XNIO-1 task-28] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/login|excitation=15ms
+2018-11-07 19:39:47 [XNIO-1 task-29] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/common/captcha|ver=1667821187287|excitation=9ms
+2018-11-07 19:39:49 [XNIO-1 task-30] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/register|excitation=11ms
+2018-11-07 19:39:49 [XNIO-1 task-31] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/common/captcha|ver=1667821189141|excitation=7ms
+2018-11-07 19:40:00 [XNIO-1 task-32] INFO  c.y.p.p.RedisService - redis配置信息不全或没有配置...
+2018-11-07 19:40:00 [XNIO-1 task-32] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/register|excitation=120ms
+2018-11-07 19:40:00 [XNIO-1 task-33] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/libs/layer/theme/default/icon.png|excitation=2ms
+2018-11-07 19:40:00 [XNIO-1 task-34] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=23ms
+2018-11-07 19:40:00 [XNIO-1 task-35] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/upload/avatar/test/avatar.png|excitation=5ms
+2018-11-07 19:40:01 [XNIO-1 task-36] INFO  c.y.p.p.RedisService - redis配置信息不全或没有配置...
+2018-11-07 19:40:01 [XNIO-1 task-36] INFO  c.y.p.p.RedisService - redis配置信息不全或没有配置...
+2018-11-07 19:40:01 [XNIO-1 task-36] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1667821200996|excitation=14ms
+2018-11-07 19:40:13 [XNIO-1 task-37] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/user/list|excitation=32ms
+2018-11-07 19:44:50 [XNIO-1 task-38] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/system/edit|excitation=18ms
+2018-11-07 19:44:50 [XNIO-1 task-39] INFO  c.y.p.i.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/admin/js/app.min.js|excitation=0ms
+2018-11-07 19:55:54 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:55:54 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:55:54 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-11-07 19:55:54 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.28.Final
